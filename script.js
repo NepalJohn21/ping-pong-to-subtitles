@@ -16,7 +16,8 @@ var landed1 = 0
 var startGame = document.querySelector(".start")
 var charBackground = "\u2B1B"
 var charBall = "\u2B1C"
-var charPaddle = "\uD83D\uDFE9"
+// Unsupported U+0000-U+FFFF Unicode. Paddle Char Replaced: "O"
+var charPaddle = "O";
 var rowBG = ""
 var result = {
     areaArray:[],
