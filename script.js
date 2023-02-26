@@ -47,6 +47,10 @@ worldRecord.style.display = "none"
 startGame.style.display = "none"
 document.body.style.fontFamily = "monospace"
 
+alert(`Example:
+0:00:00.000,0:00:01.000
+`)
+
 setTimeout(() => {
     for (let i = 0; i < 40; i++) {
         setTimeout(() => {
